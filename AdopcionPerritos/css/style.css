@@ -1,0 +1,90 @@
+.logo{
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+.listaMenu{
+    list-style-type: none;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.listaMenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+#carouselExampleIndicators {
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: auto; /* Centra el carrusel en la página */
+}
+
+/* Establece un tamaño fijo para las imágenes dentro del carrusel */
+#carouselExampleIndicators img {
+    width: 100%;
+    height: auto;
+}
+
+/* Opcional: Ajusta la altura del carrusel según sea necesario */
+#carouselExampleIndicators .carousel-inner {
+    height: 400px; /* Ajusta según sea necesario */
+}
+
+.titulo, h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.introduccion{
+    display: flex;
+    margin-left: 15vh;
+}
+
+.mansajeInicio{
+    text-align: justify;
+    padding-top: 25px;
+    
+}
+
+.imgIntroduccion{
+    display: flex;
+    width: 330px;
+    height: 330px;
+    margin-left: 12vh;
+    margin-right: 15vh;
+    margin-top: 37px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-left: 45px;
+    margin-right: 45px;
+    
+}
+
+.card{
+    display: flex;
+
+}
+
+.card-text{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
