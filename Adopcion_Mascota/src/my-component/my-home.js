@@ -13,10 +13,10 @@ export class MyElement extends LitElement {
             <img src="./img/huella.png" alt="logo_huella" class="logo_huella">
             
             <nav>
-                <a href="./my-home.js">Inicio</a>
+                <a href="../../home.html">Inicio</a>
                 <a href="#">Nosotros</a>
-                <a href="#">Catálogo</a>
-                <a class="active" href="#">Perfil Mascota</a>
+                <a href="../../catalogo.html">Catálogo</a>
+                <a class="active" href="../../index.html">Perfil Mascota</a>
             </nav>
             <div class="clearfix"></div>
         </div>
